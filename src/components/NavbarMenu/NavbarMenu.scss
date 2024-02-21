@@ -10,7 +10,6 @@
 
 .closed-offcanvas {
   width: 0;
-  transform: translateX(150vw);
   animation: closeoffcanvas 0.4s ease;
 }
 
@@ -37,6 +36,6 @@
   }
   100% {
     width: 0;
-    transform: translateX(150vw);
+    transform: translateX(-150vw);
   }
 }

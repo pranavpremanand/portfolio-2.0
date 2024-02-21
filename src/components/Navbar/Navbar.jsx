@@ -47,7 +47,9 @@ const Navbar = () => {
         </div>
       </div>
 
-      <NavbarMenu isOpen={isOpen} handleClose={() => setIsOpen(false)} />
+      {isOpen && (
+        <NavbarMenu isOpen={isOpen} handleClose={() => setIsOpen(false)} />
+      )}
     </>
   );
 };

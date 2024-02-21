@@ -25,8 +25,8 @@ const socialLinks = [
 
 const Banner = () => {
   return (
-    <div className="h-[85vh] sm:h-auto lg:min-h-[88vh] flex items-center justify-center bg-[#f9f9f9]">
-      <div className="max-w-[70rem] p-7 sm:p-10">
+    <div className="h-[85vh] sm:h-auto lg:min-h-[88vh] flex items-center justify-center bg-[#f9f9f9] p-7 sm:p-10">
+      <div className="max-w-[70rem]">
         <div className="flex flex-col-reverse lg:flex-row justify-center items-center gap-10 lg:gap-20">
           <div className="flex flex-col gap-8">
             <span className="text-center lg:text-start text-[3rem] leading-[3rem] sm:leading-[4.2rem] font-bold text-[#2d2e32]">
