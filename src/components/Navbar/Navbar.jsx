@@ -5,8 +5,8 @@ import NavbarMenu from "../NavbarMenu/NavbarMenu";
 
 export const links = [
   { title: "Home", link: "#banner" },
-  { title: "About", link: "" },
-  { title: "Skills", link: "" },
+  { title: "About", link: "#" },
+  { title: "Skills", link: "#skills" },
   { title: "Projects", link: "" },
   { title: "Contact", link: "" },
 ];
@@ -21,8 +21,8 @@ const Navbar = () => {
     <>
       <div className="h-[10vh] lg:h-[12vh] sticky top-0 z-20 text-black left-0 bg-white flex justify-end items-center shadow-md">
         <div className="flex w-[100%] justify-between items-center h-[100%] px-12">
-          <Link className="text-black font-semibold text-xl cursor-pointer">
-            {/* Pranav.dev */}
+          <Link className="text-black font-semibold text-2xl cursor-pointer">
+            {"</>"}
           </Link>
           <div className="hidden lg:flex gap-10">
             {links.map(({ title, link }, i) => (
