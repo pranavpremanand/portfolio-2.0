@@ -1,0 +1,42 @@
+.opened-offcanvas,
+.closed-offcanvas {
+  height: 100vh;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.closed-offcanvas {
+  width: 0;
+  transform: translateX(150vw);
+  animation: closeoffcanvas 0.4s ease;
+}
+
+.opened-offcanvas {
+  width: 100vw;
+  animation: openoffcanvas 0.3s ease;
+}
+
+@keyframes openoffcanvas {
+  0% {
+    width: 0;
+    transform: translateX(150vw);
+  }
+  100% {
+    width: 100vw;
+    transform: translateX(0);
+  }
+}
+
+@keyframes closeoffcanvas {
+  0% {
+    width: 100vw;
+    transform: translateX(0);
+  }
+  100% {
+    width: 0;
+    transform: translateX(150vw);
+  }
+}
