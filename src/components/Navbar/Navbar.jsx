@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { Divide as Hamburger } from "hamburger-react";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import NavbarMenu from "../NavbarMenu/NavbarMenu";
 
 export const links = [
-  { title: "Home", link: "#banner" },
-  { title: "About", link: "#" },
-  { title: "Skills", link: "#skills" },
+  { title: "Home", link: "home" },
+  { title: "About", link: "" },
+  { title: "Skills", link: "skills" },
   { title: "Projects", link: "" },
   { title: "Contact", link: "" },
 ];
@@ -19,9 +19,9 @@ const Navbar = () => {
   };
   return (
     <>
-      <div className="h-[10vh] lg:h-[12vh] sticky top-0 z-20 text-black left-0 bg-white flex justify-end items-center shadow-md">
+      <div className="h-[10vh] lg:h-[12vh] sticky top-0 z-20 left-0 bg-white flex justify-end items-center shadow-md">
         <div className="flex w-[100%] justify-between items-center h-[100%] px-12">
-          <Link className="text-black font-semibold text-2xl cursor-pointer">
+          <Link className="font-semibold text-2xl cursor-pointer">
             {"</>"}
           </Link>
           <div className="hidden lg:flex gap-10">
@@ -30,6 +30,11 @@ const Navbar = () => {
                 key={i}
                 className="cursor-pointer hover:text-sky-600 font-medium transition-colors duration-300"
                 to={link}
+                activeClass='text-sky-600'
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={1000}
               >
                 {title}
               </Link>

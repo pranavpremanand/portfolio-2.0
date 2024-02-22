@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        DEFAULT: "#2d2e32",
         "link-shadow-color": "#74B9FF",
       },
     },

@@ -111,30 +111,30 @@ const Skills = ({ theme }) => {
       title: "MongoDB",
       style: "shadow-green-400",
     },
-    {
-      id: 12,
-      src: npm,
-      title: "NPM",
-      style: "shadow-red-600",
-    },
-    {
-      id: 14,
-      src: jwt,
-      title: "JSON Web Token",
-      style: "shadow-blue-400",
-    },
+    // {
+    //   id: 12,
+    //   src: npm,
+    //   title: "NPM",
+    //   style: "shadow-red-600",
+    // },
+    // {
+    //   id: 14,
+    //   src: jwt,
+    //   title: "JSON Web Token",
+    //   style: "shadow-blue-400",
+    // },
     // {
     //   id: 13,
     //   src: postgresql,
     //   title: "PostgreSQL",
     //   style: "shadow-blue-400",
     // },
-    {
-      id: 15,
-      src: github,
-      title: "GitHub",
-      style: "shadow-gray-500",
-    },
+    // {
+    //   id: 15,
+    //   src: github,
+    //   title: "GitHub",
+    //   style: "shadow-gray-500",
+    // },
   ];
 
   return (
@@ -154,7 +154,7 @@ const Skills = ({ theme }) => {
             <img
               src={src}
               alt={title}
-              className="w-[3.5rem] sm:w-[100%] rounded-sm mx-auto"
+              className="w-[3.5rem] lg:w-[100%] rounded-sm mx-auto"
             />
             <p className="mt-2 text-[12px] overflow-hidden sm:text-base cursor-default font-medium">
               {title}

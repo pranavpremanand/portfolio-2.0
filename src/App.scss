@@ -36,3 +36,20 @@
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
   }
 }
+
+.hand-img{
+  transition: all .4s ease;
+  animation: waveHand 2s infinite;
+}
+
+@keyframes waveHand {
+  0%{
+    transform: rotate(35deg);
+  }
+  50%{
+    transform: rotate(-15deg);
+  }
+  100%{
+    transform: rotate(35deg);
+  }
+}

@@ -2,6 +2,7 @@ import React from "react";
 import myImg from "../../assets/images/me1.jpg";
 import handImg from "../../assets/images/waving hand.png";
 import { FiGithub, FiLinkedin,FiInstagram,FiMail   } from "react-icons/fi";
+import { FaWhatsapp } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import htmlImg from '../../assets/images/html.png'
 import cssImg from '../../assets/images/css.png'
@@ -21,20 +22,21 @@ const socialLinks = [
   { icon: FiLinkedin, link: "https://linkedin.com/in/pranavpremanand" },
   { icon: FiInstagram , link: "https://instagram.com/pranav_premanand" },
   { icon: FiMail    , link: "mailto:mpranavprem@gmail.com" },
+  { icon: FaWhatsapp    , link: "https://wa.me/+919633063113" },
 ];
 
 const Banner = () => {
   return (
-    <div className="h-[85vh] sm:h-auto lg:min-h-[88vh] flex items-center justify-center bg-[#f9f9f9] p-7 sm:p-10">
+    <div id="home" className="h-[85vh] sm:h-auto lg:min-h-[88vh] flex items-center justify-center bg-[#f9f9f9] p-10 sm:p-10">
       <div className="max-w-[70rem]">
         <div className="flex flex-col-reverse lg:flex-row justify-center items-center gap-10 lg:gap-20">
           <div className="flex flex-col gap-8">
-            <span className="text-center lg:text-start text-[2.8rem] sm:text-[3rem] leading-[3rem] sm:leading-[4.2rem] font-bold text-[#2d2e32]">
+            <span className="text-center lg:text-start text-[2.8rem] sm:text-[3rem] leading-[3rem] sm:leading-[4.2rem] font-bold">
               Software Developer
               <img
                 src={handImg}
                 alt="Waving Hand"
-                className="w-[3.2rem] inline-block ml-1 sm:ml-5 -mt-2"
+                className="hand-img w-[3.2rem] inline-block ml-1 sm:ml-5 -mt-2"
               />
             </span>
             <p className="text-[#555] text-center lg:text-start">
@@ -44,7 +46,7 @@ const Banner = () => {
             <div className="flex text-[1.5rem] gap-4 justify-center lg:justify-start">
               {socialLinks.map((item) => (
                 <Link to={item.link}>
-                  <item.icon className="text-[#2d2e32] hover:text-sky-600 transition-colors duration-300" />
+                  <item.icon className="hover:text-sky-600 transition-colors duration-300" />
                 </Link>
               ))}
             </div>
