@@ -4,7 +4,7 @@ import indianFlag from "../../assets/images/indian-flag.png";
 
 const About = () => {
   return (
-    <div id="about" className="flex justify-center px-10 py-20 lg:py-32">
+    <div id="about" className="flex justify-center px-7 py-20 lg:py-32">
       <div className="max-w-[70rem] grid grid-cols-1 lg:grid-cols-2 items-center gap-10">
         <img
           src={img}

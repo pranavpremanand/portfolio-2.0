@@ -28,12 +28,12 @@ const Navbar = () => {
             {links.map(({ title, link }, i) => (
               <Link
                 key={i}
-                className="cursor-pointer hover:text-sky-600 font-medium transition-colors duration-300"
+                className="nav-item bg-gradient-to-r from-sky-600 to-sky-600 link-underline  cursor-pointer hover:text-sky-600 font-medium transition-colors duration-300"
                 to={link}
-                activeClass='text-sky-600'
+                activeClass='text-sky-600 nav-item bg-gradient-to-r from-sky-600 to-sky-600 link-active-underline'
                 spy={true}
                 smooth={true}
-                offset={-100}
+                offset={-70}
                 duration={1000}
               >
                 {title}

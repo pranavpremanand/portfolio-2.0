@@ -24,7 +24,8 @@ const NavbarMenu = ({ isOpen, handleClose }) => {
             activeClass="text-sky-600"
             spy={true}
             smooth={true}
-            offset={-100}
+            // offset={-100}
+            offset={-70}
             duration={1000}
             onClick={closeModal}
           >

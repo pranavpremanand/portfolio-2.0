@@ -4,9 +4,9 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="h-[50vh] flex items-center justify-center font-bold text-[1.7rem]"
+      className="h-[40vh] px-7 py-14 flex items-center justify-center font-bold text-[1.6rem]"
     >
-      Projects coming soon!✌️😎
+      <div className="max-w-[70rem] mx-auto">Coming soon!✌️😎</div>
     </div>
   );
 };

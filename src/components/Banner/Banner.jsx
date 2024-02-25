@@ -1,7 +1,7 @@
 import React from "react";
 import myImg from "../../assets/images/me1.jpg";
 import handImg from "../../assets/images/waving hand.png";
-import { FiGithub, FiLinkedin, FiInstagram, FiMail } from "react-icons/fi";
+import { FiGithub, FiLinkedin, FiInstagram, FiMail,FiPhone  } from "react-icons/fi";
 import { FaWhatsapp } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import htmlImg from "../../assets/images/html.png";
@@ -21,7 +21,8 @@ const socialLinks = [
   { icon: FiGithub, link: "https://github.com/pranavpremanand" },
   { icon: FiLinkedin, link: "https://linkedin.com/in/pranavpremanand" },
   { icon: FiMail, link: "mailto:mpranavprem@gmail.com" },
-  { icon: FiInstagram, link: "https://instagram.com/pranav_premanand" },
+  { icon: FiPhone, link: "tel:+919633063113" },
+  // { icon: FiInstagram, link: "https://instagram.com/pranav_premanand" },
   { icon: FaWhatsapp, link: "https://wa.me/+919633063113" },
 ];
 
@@ -29,17 +30,17 @@ const Banner = () => {
   return (
     <div
       id="home"
-      className="h-[85vh] sm:h-auto lg:min-h-[88vh] flex items-center justify-center bg-[#f9f9f9] p-10 sm:p-10"
+      className="h-[85vh] sm:h-auto lg:min-h-[88vh] flex items-center justify-center bg-[#f9f9f9] px-7 py-16"
     >
       <div className="max-w-[70rem]">
         <div className="flex flex-col-reverse lg:flex-row justify-center items-center gap-10 lg:gap-20">
-          <div className="flex flex-col gap-8">
-            <span className="text-center lg:text-start text-[2.5rem] sm:text-[3rem] leading-[2.7rem] sm:leading-[4.2rem] font-bold">
+          <div className="flex flex-col gap-5">
+            <span className="text-center lg:text-start text-[1.7rem] sm:text-[3rem] leading-[2.7rem] sm:leading-[4.2rem] font-bold">
               Software Developer
               <img
                 src={handImg}
                 alt="Waving Hand"
-                className="hand-img w-[3.2rem] inline-block ml-1 sm:ml-5 -mt-2"
+                className="hand-img w-[2.8rem] sm:w-[3.2rem] inline-block ml-1 sm:ml-5 -mt-2"
               />
             </span>
             <p className="text-[#555] text-center lg:text-start">
