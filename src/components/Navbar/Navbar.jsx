@@ -5,10 +5,10 @@ import NavbarMenu from "../NavbarMenu/NavbarMenu";
 
 export const links = [
   { title: "Home", link: "home" },
-  { title: "About", link: "" },
+  { title: "About", link: "about" },
   { title: "Skills", link: "skills" },
-  { title: "Projects", link: "" },
-  { title: "Contact", link: "" },
+  { title: "Projects", link: "projects" },
+  { title: "Contact", link: "contact" },
 ];
 
 const Navbar = () => {

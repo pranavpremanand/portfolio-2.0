@@ -10,7 +10,7 @@
 
 .closed-offcanvas {
   width: 0;
-  animation: closeoffcanvas 0.4s ease;
+//   animation: closeoffcanvas 0.4s ease;
 }
 
 .opened-offcanvas {
@@ -29,13 +29,13 @@
   }
 }
 
-@keyframes closeoffcanvas {
-  0% {
-    width: 100vw;
-    transform: translateX(0);
-  }
-  100% {
-    width: 0;
-    transform: translateX(-150vw);
-  }
-}
+// @keyframes closeoffcanvas {
+//   0% {
+//     width: 100vw;
+//     transform: translateX(0);
+//   }
+//   100% {
+//     width: 0;
+//     transform: translateX(-150vw);
+//   }
+// }

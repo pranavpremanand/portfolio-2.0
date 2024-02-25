@@ -117,12 +117,12 @@ const Skills = ({ theme }) => {
     //   title: "NPM",
     //   style: "shadow-red-600",
     // },
-    // {
-    //   id: 14,
-    //   src: jwt,
-    //   title: "JSON Web Token",
-    //   style: "shadow-blue-400",
-    // },
+    {
+      id: 14,
+      src: jwt,
+      title: "JSON Web Token",
+      style: "shadow-blue-400",
+    },
     // {
     //   id: 13,
     //   src: postgresql,
@@ -142,19 +142,19 @@ const Skills = ({ theme }) => {
       id="skills"
       className="p-7 sm:p-10 bg-[#f9f9f9] flex flex-col items-center"
     >
-      <h1 className="text-2xl capitalize text-[#147efb] text-center font-semibold">
+      <h1 className="text-xl uppercase text-[#0284c7] text-center font-semibold">
         Tech Stack
       </h1>
       <div className="max-w-[70rem] grid grid-cols-3 sm:grid-cols-5 lg:grid-cols-6 gap-5 sm:gap-8 text-center py-6">
         {skills.map(({ id, src, title, style }) => (
           <div
             key={id}
-            className={`shadow-md md:hover:scale-110 h-[7.5rem] sm:h-auto w-[6.5rem] sm:w-auto cursor-pointer duration-500 p-2 rounded-lg ${style}`}
+            className={`shadow-md md:hover:scale-110 h-[7.0rem] sm:h-auto w-[6.5rem] sm:w-auto cursor-pointer duration-500 p-2 rounded-lg ${style}`}
           >
             <img
               src={src}
               alt={title}
-              className="w-[3.5rem] lg:w-[100%] rounded-sm mx-auto"
+              className="w-[3.5rem] lg:w-[60%] rounded-sm mx-auto"
             />
             <p className="mt-2 text-[12px] overflow-hidden sm:text-base cursor-default font-medium">
               {title}
