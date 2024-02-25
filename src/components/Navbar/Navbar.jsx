@@ -19,7 +19,7 @@ const Navbar = () => {
   };
   return (
     <>
-      <div className="h-[10vh] lg:h-[12vh] sticky top-0 z-20 left-0 bg-white flex justify-end items-center shadow-md">
+      <div className="h-[10vh] lg:h-[12vh] fixed w-[100%] top-0 z-20 left-0 bg-white flex justify-end items-center shadow-md">
         <div className="flex w-[100%] justify-between items-center h-[100%] px-12">
           <Link
             className="font-semibold text-2xl cursor-pointer"
