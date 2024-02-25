@@ -21,7 +21,14 @@ const Navbar = () => {
     <>
       <div className="h-[10vh] lg:h-[12vh] sticky top-0 z-20 left-0 bg-white flex justify-end items-center shadow-md">
         <div className="flex w-[100%] justify-between items-center h-[100%] px-12">
-          <Link className="font-semibold text-2xl cursor-pointer">
+          <Link
+            className="font-semibold text-2xl cursor-pointer"
+            to="home"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={1000}
+          >
             {"</>"}
           </Link>
           <div className="hidden lg:flex gap-10">
@@ -30,7 +37,7 @@ const Navbar = () => {
                 key={i}
                 className="nav-item bg-gradient-to-r from-sky-600 to-sky-600 link-underline  cursor-pointer hover:text-sky-600 font-medium transition-colors duration-300"
                 to={link}
-                activeClass='text-sky-600 nav-item bg-gradient-to-r from-sky-600 to-sky-600 link-active-underline'
+                activeClass="text-sky-600 nav-item bg-gradient-to-r from-sky-600 to-sky-600 link-active-underline"
                 spy={true}
                 smooth={true}
                 offset={-70}
