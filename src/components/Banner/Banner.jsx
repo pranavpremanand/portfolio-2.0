@@ -1,5 +1,5 @@
 import React from "react";
-import myImg from "../../assets/images/me1.jpg";
+import myImg from "../../assets/images/me.jpg";
 import handImg from "../../assets/images/waving hand.png";
 import { FiGithub, FiLinkedin, FiInstagram, FiMail,FiPhone  } from "react-icons/fi";
 import { FaWhatsapp } from "react-icons/fa";
@@ -61,7 +61,7 @@ const Banner = () => {
             className="w-[22rem] object-cover aspect-square rounded-full"
           /> */}
           <div
-            className="hero-img w-[19rem] h-[19rem] sm:w-[25rem] sm:h-[25rem]"
+            className="hero-img w-[19rem] h-[19rem] sm:w-[25rem] sm:h-[25rem] grayscale-[80%]"
             style={{ backgroundImage: `url(${myImg})` }}
           ></div>
         </div>
