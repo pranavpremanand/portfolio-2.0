@@ -115,7 +115,7 @@ const Contact = () => {
       {/* <h2 className="font-bold text-center text-[1.5rem] sm:text-[1.7rem] mt-2">
           Feel free to connect! 👇
         </h2> */}
-      <div className="max-w-[70rem] grid grid-cols-1 md:grid-cols-2 gap-10 mt-5 mx-auto">
+      <div className="max-w-[70rem] grid grid-cols-1 md:grid-cols-2 gap-10 mt-6 mx-auto">
         <form ref={form} onSubmit={handleSubmit(handleFormSubmit)}>
           <h2 className="font-semibold text-[1.4rem] sm:text-2xl underline mb-4 sm:mb-6 text-center sm:text-start">
             Send Message

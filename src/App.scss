@@ -169,3 +169,17 @@
     box-shadow: .2em -.2em 0 0 currentcolor;
   }
 }
+
+// rotate animation in about section
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+.rotate {
+  animation: rotate 7s linear infinite;
+}

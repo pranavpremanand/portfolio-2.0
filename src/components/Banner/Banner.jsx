@@ -1,6 +1,7 @@
 import React from "react";
-import myImg from "../../assets/images/me1.jpg";
+import myImg from "../../assets/images/me.jpg";
 import handImg from "../../assets/images/waving hand.png";
+import boyImg from "../../assets/images/_focused-boy-with-laptop_.png";
 import {
   FiGithub,
   FiLinkedin,
@@ -22,6 +23,7 @@ import sassImg from "../../assets/images/sass.png";
 import nodeImg from "../../assets/images/node.png";
 import expressImg from "../../assets/images/expressjs.png";
 import mongoDbImg from "../../assets/images/mongodb.png";
+import indianFlag from "../../assets/images/indian-flag.png";
 
 const socialLinks = [
   { icon: FiGithub, link: "https://github.com/pranavpremanand" },
@@ -43,19 +45,29 @@ const Banner = () => {
           <div className="flex flex-col gap-5">
             <span className="text-center lg:text-start text-[1.7rem] sm:text-[3rem] leading-[2.7rem] sm:leading-[4.2rem] font-bold">
               Software Developer
-              <img
+              {/* <img
                 src={handImg}
                 alt="Waving Hand"
                 className="hand-img w-[2.8rem] sm:w-[3.2rem] inline-block ml-1 sm:ml-5 -mt-2"
+              /> */}
+              <img
+                src={boyImg}
+                alt="Waving Hand"
+                className="w-[2.8rem] sm:w-[5.5rem] inline-block ml-1 -mt-2"
               />
             </span>
             <p className="text-[#555] text-center lg:text-start">
-              Hey, I'm Pranav. A passionate Software Developer based in Kerala,
+              Hi, I'm Pranav. A passionate Software Developer based in Kerala,
               India.📍
+              <img
+              className="ml-1 -mt-1 inline w-5"
+              src={indianFlag}
+              alt="Indian flag"
+            />
             </p>
             <div className="flex text-[1.5rem] gap-4 justify-center lg:justify-start">
               {socialLinks.map((item) => (
-                <Link to={item.link} target="_blank" rel="noopener noreferrer">
+                <Link to={item.link} key={item.link} target="_blank" rel="noopener noreferrer">
                   <item.icon className="hover:text-sky-600 transition-colors duration-300" />
                 </Link>
               ))}
@@ -67,7 +79,7 @@ const Banner = () => {
             className="w-[22rem] object-cover aspect-square rounded-full"
           /> */}
           <div
-            className="hero-img w-[19rem] h-[19rem] sm:w-[25rem] sm:h-[25rem] grayscale-[10%]"
+            className="hero-img w-[19rem] h-[19rem] sm:w-[25rem] sm:h-[25rem] grayscale-[70%]"
             style={{ backgroundImage: `url(${myImg})` }}
             loading='lazy'
           ></div>
