@@ -1,16 +1,10 @@
-.opened-offcanvas,
-.closed-offcanvas {
+.opened-offcanvas{
   height: 100vh;
   background-color: #fff;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 99;
-}
-
-.closed-offcanvas {
-  width: 0;
-//   animation: closeoffcanvas 0.4s ease;
 }
 
 .opened-offcanvas {
@@ -28,14 +22,3 @@
     transform: translateX(0);
   }
 }
-
-// @keyframes closeoffcanvas {
-//   0% {
-//     width: 100vw;
-//     transform: translateX(0);
-//   }
-//   100% {
-//     width: 0;
-//     transform: translateX(-150vw);
-//   }
-// }

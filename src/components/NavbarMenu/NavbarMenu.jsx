@@ -5,12 +5,11 @@ import { links } from "../Navbar/Navbar";
 import { Link } from "react-scroll";
 
 const NavbarMenu = ({ isOpen, handleClose }) => {
-
   const closeModal = () => {
     handleClose();
   };
   return (
-    <div className={isOpen ? "opened-offcanvas" : "closed-offcanvas"}>
+    <div className={isOpen && "opened-offcanvas"}>
       <IoMdClose
         className="absolute top-8 right-12 text-3xl cursor-pointer"
         onClick={closeModal}

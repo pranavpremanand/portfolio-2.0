@@ -38,7 +38,7 @@ const Banner = () => {
   return (
     <div
       id="home"
-      className="h-[100vh] sm:h-auto lg:min-h-[100vh] flex items-center justify-center bg-[#f9f9f9] px-7 py-16"
+      className="min-h-[95vh] lg:min-h-[100vh] flex items-center justify-center bg-[#f9f9f9] px-7 py-16"
     >
       <div className="max-w-[70rem]">
         <div className="flex flex-col-reverse lg:flex-row justify-center items-center gap-10 lg:gap-20">
