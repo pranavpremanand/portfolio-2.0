@@ -16,7 +16,7 @@ const Home = () => {
         <img
           src={WaIcon}
           alt=""
-          className="w-[4rem] sm:w-[5rem] block cursor-pointer fixed right-[1rem] bottom-[2rem] md:right-[3rem] md:bottom-[7rem] z-30 animate-bounce hover:animate-none transition-all duration-300 ease-out"
+          className="w-[4rem] sm:w-[5rem] block cursor-pointer fixed right-[1rem] bottom-[4rem] md:right-[3rem] md:bottom-[7rem] z-30 animate-bounce hover:animate-none transition-all duration-300 ease-out"
         />
       </Link>
       <Navbar />

@@ -150,7 +150,7 @@ const Skills = () => {
   return (
     <div
       id="skills"
-      className="px-7 py-14 sm:py-16 bg-[#f9f9f9] flex flex-col items-center"
+      className="px-7 py-14 sm:py-16 bg-[#f9f9f9] flex flex-col items-center justify-center min-h-[95vh] lg:min-h-[100vh]"
     >
       <h1 className="text-xl uppercase text-[#0284c7] text-center font-semibold">
         Tech Stack

@@ -108,7 +108,7 @@ const Contact = () => {
     }
   };
   return (
-    <div id="contact" className="px-7 py-14 sm:py-16 bg-[#f9f9f9]">
+    <div id="contact" className="px-7 py-14 sm:py-16 bg-[#f9f9f9] min-h-[90vh]">
       <h1 className="text-xl uppercase text-[#0284c7] text-center font-semibold">
         Contact
       </h1>
