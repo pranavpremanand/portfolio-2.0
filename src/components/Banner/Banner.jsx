@@ -53,7 +53,7 @@ const Banner = () => {
               <img
                 src={boyImg}
                 alt="Boy with laptop"
-                className="w-[2.8rem] sm:w-[5.5rem] inline-block ml-1 -mt-2"
+                className="w-[3rem] sm:w-[5.5rem] inline-block ml-1 -mt-2"
               />
             </span>
             <p className="text-[#555] text-center lg:text-start">
