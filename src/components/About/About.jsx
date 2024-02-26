@@ -28,14 +28,13 @@ const About = () => {
             about me
           </h1>
           <h2 className="font-bold text-center lg:text-start text-[1.7rem] sm:text-3xl leading-[2.2rem]">
-            Software Developer 
-            {/* <br /> based in Kerala, India */}
-            {" "}
-            {/* <img
+            Software Developer
+            <br /> based in Kerala, India{" "}
+            <img
               className="m-1 inline w-7"
               src={indianFlag}
               alt="Indian flag"
-            /> */}
+            />
           </h2>
           <p className="text-[#555] text-center lg:text-start">
             Hey, my name is Pranav, and I'm a Software Web Developer. I craft
