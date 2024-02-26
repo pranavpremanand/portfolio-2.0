@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <>
       <div className="h-[10vh] lg:h-[12vh] fixed w-[100%] top-0 z-20 left-0 bg-white flex justify-end items-center shadow-md">
-        <div className="flex w-[100%] justify-between items-center h-[100%] px-12">
+        <div className="flex w-[100%] justify-between items-center h-[100%] px-7 lg:px-12">
           <Link
             className="font-semibold text-2xl cursor-pointer"
             to="home"
@@ -48,7 +48,7 @@ const Navbar = () => {
             ))}
           </div>
         </div>
-        <div className="block lg:hidden mr-8" onClick={handleBtnClick}>
+        <div className="block lg:hidden mr-7" onClick={handleBtnClick}>
           <Hamburger
             color="black"
             size="23"
