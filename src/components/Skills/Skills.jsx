@@ -65,7 +65,7 @@ const skills = [
   {
     id: 9,
     src: tailwind,
-    title: "Tailwind",
+    title: "Tailwind CSS",
     style: "shadow-cyan-700",
   },
   {
