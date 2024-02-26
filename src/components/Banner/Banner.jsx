@@ -65,7 +65,7 @@ const Banner = () => {
               alt="Indian flag"
             />
             </p>
-            <div className="flex text-[1.8rem] sm:text-[1.5rem] gap-6 sm:gap-4 justify-center lg:justify-start">
+            <div className="flex text-[1.7rem] sm:text-[1.5rem] gap-6 sm:gap-4 justify-center lg:justify-start">
               {socialLinks.map((item) => (
                 <Link to={item.link} key={item.link} target="_blank" rel="noopener noreferrer">
                   <item.icon className="hover:text-sky-600 transition-colors duration-300" />
