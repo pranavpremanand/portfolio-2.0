@@ -20,7 +20,7 @@ const NavbarMenu = ({ isOpen, handleClose }) => {
             key={i}
             className="cursor-pointer text-2xl hover:text-sky-600 font-medium transition-colors duration-300"
             to={link}
-            activeClass="text-sky-600"
+            // activeClass="text-sky-600"
             spy={true}
             smooth={true}
             // offset={-100}
