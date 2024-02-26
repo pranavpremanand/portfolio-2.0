@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./NavbarMenu.scss";
 import { IoMdClose } from "react-icons/io";
 import { links } from "../Navbar/Navbar";

@@ -30,7 +30,7 @@ const Footer = () => {
           <Link
             key={i}
             to={item.url}
-            className="flex gap-3 items-center flex-col sm:flex-row text-[#f1f1f1] text-3xl"
+            className="flex gap-3 items-center flex-col sm:flex-row text-[#f1f1f1] text-3xl hover:text-sky-600 transition-colors duration-300 ease-out"
             target="_blank"
             rel="noopener noreferrer"
           >
