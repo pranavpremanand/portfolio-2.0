@@ -41,7 +41,7 @@ const skills = [
   {
     id: 99,
     src: reactquery,
-    title: "TanStack Query",
+    title: "React Query",
     style: "shadow-red-600",
   },
   {
