@@ -159,7 +159,7 @@ const Skills = () => {
         {skills.map(({ id, src, title, style }, i) => (
           <div
             key={id}
-            className={`shadow-md md:hover:scale-110 h-[7.0rem] sm:h-auto w-[5.2rem] sm:w-auto cursor-pointer duration-500 p-2 rounded-lg ${style} ${
+            className={`shadow-md md:hover:scale-110 h-[7.0rem] sm:h-auto w-auto cursor-pointer duration-500 p-2 rounded-lg ${style} ${
               scaleItem === i && "scale-110"
             }`}
           >

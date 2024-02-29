@@ -41,7 +41,7 @@ const Banner = () => {
       className="min-h-[95vh] lg:min-h-[100vh] flex items-center justify-center bg-[#f9f9f9] px-7 py-16"
     >
       <div className="max-w-[70rem]">
-        <div className="flex flex-col-reverse lg:flex-row justify-center items-center gap-10 lg:gap-20">
+        <div className="flex flex-col-reverse lg:flex-row-reverse justify-center items-center gap-10 lg:gap-20">
           <div className="flex flex-col gap-5">
             <span className="text-center lg:text-start text-[1.7rem] sm:text-[3rem] leading-[2.7rem] sm:leading-[4.2rem] font-bold">
               Software Developer
