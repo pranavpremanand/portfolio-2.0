@@ -31,7 +31,7 @@ const socialLinks = [
   { icon: FiMail, link: "mailto:mpranavprem@gmail.com" },
   { icon: FiPhone, link: "tel:+919633063113" },
   // { icon: FiInstagram, link: "https://instagram.com/pranav_premanand" },
-  { icon: FaWhatsapp, link: "https://wa.me/+919633063113" },
+ // { icon: FaWhatsapp, link: "https://wa.me/+919633063113" },
 ];
 
 const Banner = () => {
