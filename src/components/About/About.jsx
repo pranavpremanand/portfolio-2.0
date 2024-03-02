@@ -23,7 +23,7 @@ const About = () => {
           />
           <div
             data-aos="to-right"
-            data-aos-duration="8s"
+            data-aos-duration="5s"
             data-aos-offset="-150"
             className="rounded-[50%] absolute -bottom-12 lg:-bottom-16 right-[50%] translate-x-[50%] sm:translate-x-0 sm:right-10 lg:right-2"
           >

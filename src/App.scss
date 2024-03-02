@@ -268,22 +268,19 @@
 }
 
 [data-aos="to-right"] {
-  transform: translateX(75vw) rotate(360deg);
-  transition-duration: 10s;
+  transform: translateX(100vw) rotate(360deg);
 
   &.aos-animate {
-    transition-duration: 10s;
     transform: translateX(0) rotate(0);
   }
   @media (max-width: 640px) {
     &.aos-animate {
-      transition-duration: 10s;
       transform: translateX(50%) rotate(0);
     }
   }
 }
 
-body[data-aos-duration="8s"] [data-aos],
-[data-aos][data-aos][data-aos-duration="8s"] {
-  transition-duration: 8000ms;
+body[data-aos-duration="5s"] [data-aos],
+[data-aos][data-aos][data-aos-duration="5s"] {
+  transition-duration: 5000ms;
 }
