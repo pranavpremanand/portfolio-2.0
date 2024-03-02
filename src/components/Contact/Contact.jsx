@@ -112,11 +112,10 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="px-7 py-14 sm:py-16 bg-[#f9f9f9] min-h-[90vh] relative"
+      className="sm:py-16 bg-[#f9f9f9] min-h-[90vh]"
     >
-      {/* <div className="blurred-circle bottom-[5rem] right-[4rem] opacity-30"></div> */}
-      <div className="max-w-[70rem] z-10 absolute w-[100%] top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]">
-        <div className="w-[100%]">
+      <div className="px-7 py-14 max-w-[70rem] mx-auto">
+        <div className="">
           <h1 className="text-xl uppercase text-[#0284c7] text-center font-semibold">
             Contact
           </h1>
