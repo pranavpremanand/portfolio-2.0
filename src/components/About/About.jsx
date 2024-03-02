@@ -8,10 +8,15 @@ const About = () => {
   return (
     <div
       id="about"
-      className="flex justify-center px-7 py-20 lg:py-32 min-h-[95vh] lg:min-h-[100vh]"
+      className="flex justify-center px-7 py-20 lg:py-32 min-h-[95vh] lg:min-h-[100vh] relative"
     >
-      <div className="max-w-[70rem] grid grid-cols-1 lg:grid-cols-2 items-center gap-10">
-        <div className="w-fit relative mx-auto mb-3 sm:mb-0">
+      {/* <div className="blurred-circle bottom-[7rem] left-[4rem] opacity-40"></div> */}
+      <div className="max-w-[70rem] grid grid-cols-1 lg:grid-cols-2 items-center gap-10 z-10">
+        <div
+          className="w-fit relative mx-auto mb-3 sm:mb-0"
+          data-aos="fade-right"
+          data-aos-offset="-200"
+        >
           <img
             src={img}
             alt=""
@@ -28,7 +33,11 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-center lg:items-start gap-4">
+        <div
+          className="flex flex-col items-center lg:items-start gap-4"
+          data-aos="fade-left"
+          data-aos-offset="-200"
+        >
           <h1 className="text-xl uppercase text-[#0284c7] text-center font-semibold">
             about me
           </h1>

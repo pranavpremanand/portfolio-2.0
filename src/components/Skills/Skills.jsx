@@ -150,29 +150,32 @@ const Skills = () => {
   return (
     <div
       id="skills"
-      className="px-7 py-14 sm:py-16 bg-[#f9f9f9] flex flex-col items-center justify-center min-h-[95vh] lg:min-h-[100vh]"
+      className="px-7 py-14 sm:py-16 bg-[#f9f9f9] flex flex-col items-center justify-center min-h-[95vh] lg:min-h-[100vh] relative"
     >
-      <h1 className="text-xl uppercase text-[#0284c7] text-center font-semibold">
-        Tech Stack
-      </h1>
-      <div className="max-w-[70rem] grid grid-cols-3 sm:grid-cols-5 lg:grid-cols-6 gap-5 sm:gap-8 text-center py-6">
-        {skills.map(({ id, src, title, style }, i) => (
-          <div
-            key={id}
-            className={`shadow-md md:hover:scale-110 h-[7.0rem] sm:h-auto w-auto cursor-pointer duration-500 p-2 rounded-lg ${style} ${
-              scaleItem === i && "scale-110"
-            }`}
-          >
-            <img
-              src={src}
-              alt={title}
-              className="w-[3.5rem] lg:w-[60%] rounded-sm mx-auto"
-            />
-            <p className="mt-2 text-[12px] overflow-hidden sm:text-base cursor-default font-medium">
-              {title}
-            </p>
-          </div>
-        ))}
+      {/* <div className="blurred-circle bottom-[5rem] right-[4rem] opacity-25"></div> */}
+      <div className="" data-aos="fade-up">
+        <h1 className="text-xl uppercase text-[#0284c7] text-center font-semibold">
+          Tech Stack
+        </h1>
+        <div className="max-w-[70rem] grid grid-cols-3 sm:grid-cols-5 lg:grid-cols-6 gap-5 sm:gap-8 text-center py-6">
+          {skills.map(({ id, src, title, style }, i) => (
+            <div
+              key={id}
+              className={`shadow-md md:hover:scale-110 z-10 bg-[#f9f9f9] h-[7.0rem] sm:h-auto w-auto cursor-pointer duration-500 p-2 rounded-lg ${style} ${
+                scaleItem === i && "scale-110"
+              }`}
+            >
+              <img
+                src={src}
+                alt={title}
+                className="w-[3.5rem] lg:w-[60%] rounded-sm mx-auto"
+              />
+              <p className="mt-2 text-[12px] overflow-hidden sm:text-base cursor-default font-medium">
+                {title}
+              </p>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
