@@ -54,8 +54,7 @@ const Banner = () => {
                   4000,
                   "MERN Stack",
                   4000,
-                  "Freelancer",
-                  4000,
+                  
                   // () => {
                   //    console.log('Sequence completed');
                   // },
