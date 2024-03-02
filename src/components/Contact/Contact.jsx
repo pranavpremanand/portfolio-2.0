@@ -128,6 +128,7 @@ const Contact = () => {
               ref={form}
               onSubmit={handleSubmit(handleFormSubmit)}
               data-aos="fade-right"
+              data-aos-offset="-150"
             >
               <h2 className="font-semibold text-[1.4rem] sm:text-2xl underline mb-4 sm:mb-6 text-center sm:text-start">
                 Send Message
@@ -231,7 +232,7 @@ const Contact = () => {
                 </button>
               </div>
             </form>
-            <div className="" data-aos="fade-left">
+            <div className="" data-aos="fade-left" data-aos-offset="-150">
               <h2 className="font-semibold text-[1.4rem] sm:text-2xl underline mb-4 sm:mb-6 text-center sm:text-start">
                 Get in touch
               </h2>

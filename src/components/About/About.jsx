@@ -15,7 +15,7 @@ const About = () => {
         <div
           className="w-fit relative mx-auto mb-3 sm:mb-0"
           data-aos="fade-right"
-          data-aos-offset="-200"
+          data-aos-offset="-150"
         >
           <img
             src={img}
@@ -36,7 +36,7 @@ const About = () => {
         <div
           className="flex flex-col items-center lg:items-start gap-4"
           data-aos="fade-left"
-          data-aos-offset="-200"
+          data-aos-offset="-150"
         >
           <h1 className="text-xl uppercase text-[#0284c7] text-center font-semibold">
             about me
