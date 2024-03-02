@@ -26,6 +26,7 @@ import expressImg from "../../assets/images/expressjs.png";
 import mongoDbImg from "../../assets/images/mongodb.png";
 import indianFlag from "../../assets/images/indian-flag.png";
 import CV from "../../assets/files/Pranav_M_FullStackDeveloper_CV.pdf";
+import { TypeAnimation } from "react-type-animation";
 
 const socialLinks = [
   { icon: FiGithub, link: "https://github.com/pranavpremanand" },
@@ -46,8 +47,25 @@ const Banner = () => {
       <div className="max-w-[70rem]">
         <div className="flex flex-col-reverse lg:flex-row-reverse justify-center items-center gap-10 lg:gap-20">
           <div className="flex flex-col gap-5" data-aos="fade-left">
-            <span className="text-center lg:text-start text-[1.7rem] sm:text-[3rem] leading-[2.7rem] sm:leading-[4.2rem] font-bold">
-              Software Developer
+            <span className="text-center lg:text-start">
+              {/* Software Developer */}
+              <TypeAnimation
+                sequence={[
+                  "Software Developer",
+                  4000,
+                  "MERN Stack",
+                  4000,
+                  "Freelancer",
+                  4000,
+                  // () => {
+                  //    console.log('Sequence completed');
+                  // },
+                ]}
+                wrapper="span"
+                cursor={true}
+                repeat={Infinity}
+                className="text-[1.7rem] sm:text-[3rem] leading-[2.7rem] sm:leading-[4.2rem] font-bold"
+              />
               {/* <img
                 src={handImg}
                 alt="Waving Hand"
