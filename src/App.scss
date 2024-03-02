@@ -2,6 +2,29 @@
   color: #d10000;
 }
 
+.nav-icon:hover {
+  color: #179bdd;
+  animation: animateIcon 0.5s;
+}
+
+@keyframes animateIcon {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(-30deg);
+  }
+  50% {
+    transform: rotate(30deg);
+  }
+  75% {
+    transform: rotate(-30deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
 .hamburger-menu-icon:hover {
   div {
     transition: all 0.3s ease;
@@ -19,6 +42,7 @@
 
 .hero-img {
   animation: morph 6s ease-in-out infinite;
+  // animation: perspectiveEffect 5s;
   border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
   transition: all 1s ease-in-out;
   background-position: 50%;
@@ -26,6 +50,15 @@
   background-size: cover;
   z-index: 5;
 }
+
+// @keyframes perspectiveEffect {
+//   from {
+//     transform: perspective(100px) rotateX(30deg) scale(0.5);
+//   }
+//   to {
+//     transform: scale(1);
+//   }
+// }
 
 @keyframes morph {
   0% {
