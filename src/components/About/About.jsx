@@ -21,7 +21,12 @@ const About = () => {
             alt=""
             className="rounded-xl lg:rounded-2xl w-[95%] sm:w-[60%] lg:w-[90%] mx-auto lg:m-0"
           />
-          <div className="rounded-[50%] absolute -bottom-12 lg:-bottom-16 right-[50%] translate-x-[50%] sm:translate-x-0 sm:right-10 lg:right-2">
+          <div
+            data-aos="to-right"
+            data-aos-duration="8s"
+            data-aos-offset="-150"
+            className="rounded-[50%] absolute -bottom-12 lg:-bottom-16 right-[50%] translate-x-[50%] sm:translate-x-0 sm:right-10 lg:right-2"
+          >
             <div className="w-[10rem] h-[10rem] md:w-[12rem] md:h-[12rem] flex justify-center items-center">
               <img
                 src={circleImg}
