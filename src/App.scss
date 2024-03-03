@@ -3,7 +3,7 @@
 }
 
 .nav-icon:hover {
-  color: #179bdd;
+  color: #0284C7;
   animation: animateIcon 0.5s;
 }
 
@@ -152,7 +152,7 @@
   animation: 1s spin linear infinite;
 }
 .loader:after {
-  color: #179bdd;
+  color: #0284C7;
   transform: rotateY(70deg);
   animation-delay: 0.4s;
 }
