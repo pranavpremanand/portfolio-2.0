@@ -52,9 +52,11 @@ const Banner = () => {
                 sequence={[
                   "Software Developer",
                   4000,
+                  "Full Stack Developer",
+                  4000,
                   "MERN Stack",
                   4000,
-                  
+
                   // () => {
                   //    console.log('Sequence completed');
                   // },

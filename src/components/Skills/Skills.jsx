@@ -10,7 +10,7 @@ import mongodb from "../../assets/images/mongodb.png";
 import bootstrap from "../../assets/images/bootstrap.png";
 import express from "../../assets/images/expressjs.png";
 import mui from "../../assets/images/MUI.png";
-import nextjs from "../../assets/images/nextjs.png";
+import nextjs from "../../assets/images/nextjs-dark.png";
 import redux from "../../assets/images/redux.png";
 import sass from "../../assets/images/sass.png";
 import postgresql from "../../assets/images/postgresql.png";
@@ -33,22 +33,16 @@ const skills = [
     style: "shadow-slate-400",
   },
   {
-    id: 2,
-    src: javascript,
-    title: "JavaScript",
-    style: "shadow-yellow-500",
-  },
-  {
     id: 3,
     src: redux,
     title: "Redux Toolkit",
     style: "shadow-purple-600",
   },
   {
-    id: 99,
-    src: reactquery,
-    title: "React Query",
-    style: "shadow-red-600",
+    id: 2,
+    src: javascript,
+    title: "JavaScript",
+    style: "shadow-yellow-500",
   },
   {
     id: 7,
@@ -110,18 +104,24 @@ const skills = [
     title: "MongoDB",
     style: "shadow-green-400",
   },
+  {
+    id: 99,
+    src: reactquery,
+    title: "React Query",
+    style: "shadow-red-600",
+  },
   // {
   //   id: 12,
   //   src: npm,
   //   title: "NPM",
   //   style: "shadow-red-600",
   // },
-  {
-    id: 14,
-    src: jwt,
-    title: "JSON Web Token",
-    style: "shadow-blue-400",
-  },
+  // {
+  //   id: 14,
+  //   src: jwt,
+  //   title: "JSON Web Token",
+  //   style: "shadow-blue-400",
+  // },
   // {
   //   id: 13,
   //   src: postgresql,

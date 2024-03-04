@@ -58,9 +58,11 @@ const About = () => {
             Hey, my name is Pranav, and I'm a Software Web Developer. I craft
             beautiful, and efficient web applications that are both
             user-friendly and responsive. I specialize in working with React,
-            Node.js, Express.js and MongoDB. My expertise in these technologies
-            allows me to build web applications from scratch and integrate
-            different functionalities into them.
+            Next.js, Node.js, Express.js and MongoDB.
+            <br />
+            My expertise in these technologies allows me to build web
+            applications from scratch and integrate different functionalities
+            into them.
           </p>
         </div>
       </div>
