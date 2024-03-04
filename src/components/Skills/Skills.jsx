@@ -27,9 +27,15 @@ const skills = [
     style: "shadow-blue-500",
   },
   {
+    id: 17,
+    src: nextjs,
+    title: "Next.js",
+    style: "shadow-slate-400",
+  },
+  {
     id: 2,
     src: javascript,
-    title: "JavaScript ES6",
+    title: "JavaScript",
     style: "shadow-yellow-500",
   },
   {
@@ -47,13 +53,13 @@ const skills = [
   {
     id: 7,
     src: html,
-    title: "HTML5",
+    title: "HTML",
     style: "shadow-orange-500",
   },
   {
     id: 8,
     src: css,
-    title: "CSS3",
+    title: "CSS",
     style: "shadow-blue-500",
   },
   {
@@ -80,12 +86,6 @@ const skills = [
     title: "Bootstrap",
     style: "shadow-purple-400",
   },
-  // {
-  //   id: 17,
-  //   src: nextjs,
-  //   title: "Next.js",
-  //   style: "shadow-slate-400",
-  // },
   // {
   //   id: 16,
   //   src: typescript,
