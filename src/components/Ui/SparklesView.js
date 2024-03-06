@@ -10,7 +10,8 @@ export function SparklesView({ children }) {
           id="tsparticlesfullpage"
           background="transparent"
           minSize={0.6}
-          maxSize={1.4}
+          maxSize={1.6}
+        //   maxSize={1.4}
           particleDensity={100}
           className="w-full h-full"
           particleColor="#000000"

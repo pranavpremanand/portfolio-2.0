@@ -1,17 +1,18 @@
-import React from "react";
-import Navbar from "../../components/Navbar/Navbar";
-import Banner from "../../components/Banner/Banner";
-import Skills from "../../components/Skills/Skills";
-import About from "../../components/About/About";
-import Contact from "../../components/Contact/Contact";
-import Projects from "../../components/Projects/Projects";
-import Footer from "../../components/Footer/Footer";
+import React, { Suspense } from "react";
 import { Link } from "react-router-dom/dist";
 import WaIcon from "../../assets/svg/wa-icon.svg";
+import { MainLoading } from "../../components/LoadingSpinner/LoadingSpinner";
+const Navbar = React.lazy(() => import("../../components/Navbar/Navbar"));
+const Footer = React.lazy(() => import("../../components/Footer/Footer"));
+const Banner = React.lazy(() => import("../../components/Banner/Banner"));
+const Skills = React.lazy(() => import("../../components/Skills/Skills"));
+const Projects = React.lazy(() => import("../../components/Projects/Projects"));
+const About = React.lazy(() => import("../../components/About/About"));
+const Contact = React.lazy(() => import("../../components/Contact/Contact"));
 
 const Home = () => {
   return (
-    <>
+    <Suspense fallback={<MainLoading />}>
       <Link to="https://wa.me/+919633063113">
         <img
           src={WaIcon}
@@ -26,7 +27,7 @@ const Home = () => {
       <Projects />
       <Contact />
       <Footer />
-    </>
+    </Suspense>
   );
 };
 

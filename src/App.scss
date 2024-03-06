@@ -3,7 +3,7 @@
 }
 
 .nav-icon:hover {
-  color: #0284C7;
+  color: #0284c7;
   animation: animateIcon 0.5s;
 }
 
@@ -152,7 +152,7 @@
   animation: 1s spin linear infinite;
 }
 .loader:after {
-  color: #0284C7;
+  color: #0284c7;
   transform: rotateY(70deg);
   animation-delay: 0.4s;
 }
@@ -202,6 +202,27 @@
     box-shadow: 0.2em -0.2em 0 0 currentcolor;
   }
 }
+
+// main loading styles
+.main-loader {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: inline-block;
+  border-top: 3px solid #0284c7;
+  border-right: 3px solid transparent;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} 
 
 // rotate animation in about section
 @keyframes rotate {
@@ -268,19 +289,20 @@
 }
 
 [data-aos="to-right"] {
-  transform: translateX(100vw) rotate(360deg);
+  transform: translateY(-100vw) rotate(360deg);
 
   &.aos-animate {
-    transform: translateX(0) rotate(0);
+    transform: translateY(0) rotate(0);
   }
   @media (max-width: 640px) {
+    transform: translateY(-100vw) rotate(360deg);
     &.aos-animate {
       transform: translateX(50%) rotate(0);
     }
   }
 }
 
-body[data-aos-duration="5s"] [data-aos],
-[data-aos][data-aos][data-aos-duration="5s"] {
-  transition-duration: 5000ms;
+body[data-aos-duration="2s"] [data-aos],
+[data-aos][data-aos][data-aos-duration="2s"] {
+  transition-duration: 2000ms;
 }

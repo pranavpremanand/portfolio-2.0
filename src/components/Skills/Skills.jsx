@@ -168,6 +168,7 @@ const Skills = () => {
                 src={src}
                 alt={title}
                 className="w-[3.5rem] lg:w-[50%] rounded-sm mx-auto"
+                loading="lazy"
               />
               <p className="mt-2 text-[12px] overflow-hidden sm:text-base cursor-default font-medium">
                 {title}

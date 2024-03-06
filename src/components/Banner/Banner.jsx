@@ -44,7 +44,7 @@ const Banner = () => {
       <div
         id="home"
         className="min-h-[100vh] flex items-center justify-center
-        px-7 py-16"
+        px-7 py-16 z-10"
         // bg-[#f9f9f9]
       >
         <div className="max-w-[70rem]">
@@ -77,6 +77,7 @@ const Banner = () => {
               /> */}
                 <img
                   src={boyImg}
+                  loading="lazy"
                   alt="Boy with laptop"
                   className="w-[3rem] sm:w-[5.5rem] inline-block sm:ml-1 -mt-4 sm:mt-[-2rem]"
                 />
@@ -88,6 +89,7 @@ const Banner = () => {
                   className="ml-1 -mt-1 inline w-5"
                   src={indianFlag}
                   alt="Indian flag"
+                  loading="lazy"
                 />
               </p>
               <div className="flex text-[1.7rem] sm:text-[1.5rem] gap-6 sm:gap-4 justify-center lg:justify-start">
