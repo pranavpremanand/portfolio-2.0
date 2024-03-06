@@ -43,7 +43,7 @@ const Banner = () => {
     <SparklesView>
       <div
         id="home"
-        className="min-h-[100vh] flex items-center justify-center
+        className="min-h-[95vh] sm:min-h-[100vh] flex items-center justify-center
         px-7 py-16"
         // bg-[#f9f9f9]
       >
