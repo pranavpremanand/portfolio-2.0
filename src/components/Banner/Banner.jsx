@@ -64,7 +64,7 @@ const Banner = () => {
                 wrapper="span"
                 cursor={true}
                 repeat={Infinity}
-                className="text-[1.5rem] sm:text-[3rem] leading-[2.7rem] sm:leading-[4.2rem] font-bold"
+                className="text-[1.5rem] sm:text-[2.5rem] xl:text-[2.9rem] leading-[2.7rem] sm:leading-[4.2rem] font-bold"
               />
               {/* <img
                 src={handImg}
