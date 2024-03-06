@@ -11,32 +11,32 @@ const About = () => {
       className="flex justify-center px-7 py-20 lg:py-32 min-h-[95vh] lg:min-h-[100vh]"
     >
       <div className="max-w-[70rem] grid grid-cols-1 lg:grid-cols-2 items-center gap-10">
-        <div
-          className="w-fit relative mx-auto mb-3 sm:mb-0"
-          data-aos="fade-right"
-          // data-aos-offset="-150"
-        >
-          <img
-            src={img}
-            alt=""
-            className="rounded-xl lg:rounded-2xl w-[95%] sm:w-[60%] lg:w-[90%] mx-auto lg:m-0"
-          />
           <div
-            data-aos="to-right"
-            data-aos-duration="5s"
-            data-aos-offset="-150"
-            className="rounded-[50%] absolute -bottom-12 lg:-bottom-16 right-[50%] translate-x-[50%] sm:translate-x-0 sm:right-10 lg:right-2"
+            className="w-fit relative mx-auto mb-3 sm:mb-0"
+            data-aos="fade-right"
+            // data-aos-offset="-150"
           >
-            <div className="w-[10rem] h-[10rem] md:w-[12rem] md:h-[12rem] flex justify-center items-center">
-              <img
-                src={circleImg}
-                alt=""
-                className="rounded-[50%] w-[100%] h-[100%] rotate"
-              />
-              <img src={boyWithLapImg} alt="" className="w-[50%] absolute" />
+            <img
+              src={img}
+              alt=""
+              className="rounded-xl lg:rounded-2xl w-[95%] sm:w-[60%] lg:w-[90%] mx-auto lg:m-0"
+            />
+            <div
+              data-aos="to-right"
+              data-aos-duration="5s"
+              data-aos-offset="-150"
+              className="rounded-[50%] absolute -bottom-12 lg:-bottom-16 right-[50%] translate-x-[50%] sm:translate-x-0 sm:right-10 lg:right-2"
+            >
+              <div className="w-[10rem] h-[10rem] md:w-[12rem] md:h-[12rem] flex justify-center items-center">
+                <img
+                  src={circleImg}
+                  alt=""
+                  className="rounded-[50%] w-[100%] h-[100%] rotate"
+                />
+                <img src={boyWithLapImg} alt="" className="w-[50%] absolute" />
+              </div>
             </div>
           </div>
-        </div>
         <div
           className="flex flex-col items-center lg:items-start gap-4"
           data-aos="fade-left"
