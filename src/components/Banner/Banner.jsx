@@ -41,7 +41,7 @@ const Banner = () => {
   return (
     <div
       id="home"
-      className="min-h-[95vh] lg:min-h-[100vh] flex items-center justify-center bg-[#f9f9f9] px-7 py-16"
+      className="min-h-[100vh] flex items-center justify-center bg-[#f9f9f9] px-7 py-16"
     >
       <div className="max-w-[70rem]">
         <div className="flex flex-col-reverse lg:flex-row-reverse justify-center items-center gap-10 lg:gap-20">
@@ -54,17 +54,17 @@ const Banner = () => {
                   4000,
                   "Full Stack Developer",
                   4000,
-                  "MERN Stack",
+                  "MERN Stack Developer",
                   4000,
 
-                  // () => {
-                  //    console.log('Sequence completed');
-                  // },
+                  () => {
+                     console.log('Sequence completed');
+                  },
                 ]}
                 wrapper="span"
                 cursor={true}
                 repeat={Infinity}
-                className="text-[1.7rem] sm:text-[3rem] leading-[2.7rem] sm:leading-[4.2rem] font-bold"
+                className="text-[1.5rem] sm:text-[3rem] leading-[2.7rem] sm:leading-[4.2rem] font-bold"
               />
               {/* <img
                 src={handImg}
@@ -74,7 +74,7 @@ const Banner = () => {
               <img
                 src={boyImg}
                 alt="Boy with laptop"
-                className="w-[3rem] sm:w-[5.5rem] inline-block ml-1 -mt-4 sm:mt-[-2rem]"
+                className="w-[3rem] sm:w-[5.5rem] inline-block sm:ml-1 -mt-4 sm:mt-[-2rem]"
               />
             </span>
             <p className="text-[#555] text-center lg:text-start">

@@ -10,7 +10,7 @@ import mongodb from "../../assets/images/mongodb.png";
 import bootstrap from "../../assets/images/bootstrap.png";
 import express from "../../assets/images/expressjs.png";
 import mui from "../../assets/images/MUI.png";
-import nextjs from "../../assets/images/nextjs-dark.png";
+import nextjs from "../../assets/images/nextjs.png";
 import redux from "../../assets/images/redux.png";
 import sass from "../../assets/images/sass.png";
 import postgresql from "../../assets/images/postgresql.png";
@@ -160,7 +160,7 @@ const Skills = () => {
           {skills.map(({ id, src, title, style }, i) => (
             <div
               key={id}
-              className={`shadow-md md:hover:scale-110 z-10 grid place-content-center bg-[#f9f9f9] h-[7.3rem] sm:h-[8.2rem] w-auto cursor-pointer duration-500 p-2 rounded-lg ${style} ${
+              className={`shadow-lg md:hover:scale-110 z-10 grid place-content-center bg-[#f9f9f9] h-[7.3rem] sm:h-[8.2rem] w-auto cursor-pointer duration-500 p-2 rounded-lg ${style} ${
                 scaleItem === i && "scale-110"
               }`}
             >
