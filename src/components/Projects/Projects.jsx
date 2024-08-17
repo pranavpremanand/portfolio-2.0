@@ -33,7 +33,7 @@ const Projects = () => {
         <h1 className="text-xl uppercase text-[#0284c7] text-center font-semibold mb-5">
           Projects
         </h1>
-        <div className="wrapper mx-auto grid grid-cols-1 md:gap-12">
+        <div className="wrapper mx-auto grid grid-cols-1 md:gap-16">
           {projects.map(
             (
               {
@@ -53,8 +53,8 @@ const Projects = () => {
                   i % 2 === 0
                     ? "flex-col md:flex-row"
                     : "flex-col md:flex-row-reverse"
-                } gap-5 md:gap-10 pb-5 pt-8 md:pt-0 md:border-b-0 ${
-                  i === projects.length - 1 ? "border-b-0" : "border-b"
+                } gap-5 md:gap-10 md:border-b-0 ${
+                  i === projects.length - 1 ? "border-b-0" : "border-b mb-8 md:mb-0 pb-5 md:pb-0"
                 }`}
               >
                 <Link
