@@ -47,7 +47,7 @@ const Banner = () => {
         px-7 py-16"
         // bg-[#f9f9f9]
       >
-        <div className="max-w-[70rem]">
+        <div className="wrapper">
           <div className="flex flex-col-reverse lg:flex-row-reverse justify-center items-center gap-10 lg:gap-20">
             <div className="flex flex-col gap-5" data-aos="fade-left">
               <span className="text-center lg:text-start">

@@ -112,11 +112,11 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="sm:py-16 bg-[#f9f9f9] min-h-[90vh]"
+      className="sm:py-16 min-h-[90vh]"
     >
-      <div className="px-7 py-14 max-w-[70rem] mx-auto">
+      <div className="px-7 py-14 wrapper mx-auto">
         <div className="">
-          <h1 className="text-xl uppercase text-[#0284c7] text-center font-semibold">
+          <h1 className="text-xl uppercase text-[#0284c7] text-center font-semibold mb-5">
             Contact
           </h1>
           {/* <h2 className="font-bold text-center text-[1.5rem] sm:text-[1.7rem] mt-2">
@@ -136,13 +136,13 @@ const Contact = () => {
                 <div className="grid grid-cols-1 relative">
                   <label
                     htmlFor=""
-                    className="bg-[#f9f9f9] absolute -top-[0.6rem] left-2 px-1 text-[0.9rem] font-[500]"
+                    className="bg-white absolute -top-[0.6rem] left-2 px-1 text-[0.9rem] font-[500]"
                   >
                     Full Name
                   </label>
                   <input
                     type="text"
-                    className="bg-[#f9f9f9] border border-[#2d2e32] outline-none rounded-[0.2rem] py-3 px-2"
+                    className="border border-[#2d2e32] outline-none rounded-[0.2rem] py-3 px-2"
                     {...register("fullName", {
                       required: "Full name is required",
                       validate: (val) => {
@@ -159,13 +159,13 @@ const Contact = () => {
                 <div className="grid grid-cols-1 relative">
                   <label
                     htmlFor=""
-                    className="bg-[#f9f9f9] absolute -top-[0.6rem] left-2 px-1 text-[0.9rem] font-[500]"
+                    className="bg-white absolute -top-[0.6rem] left-2 px-1 text-[0.9rem] font-[500]"
                   >
                     Email
                   </label>
                   <input
                     type="email"
-                    className="bg-[#f9f9f9] border border-[#2d2e32] outline-none rounded-[0.2rem] py-3 px-2"
+                    className="border border-[#2d2e32] outline-none rounded-[0.2rem] py-3 px-2"
                     {...register("email", {
                       required: "Email is required",
                       pattern: {
@@ -179,13 +179,13 @@ const Contact = () => {
                 <div className="grid grid-cols-1 relative">
                   <label
                     htmlFor=""
-                    className="bg-[#f9f9f9] absolute -top-[0.6rem] left-2 px-1 text-[0.9rem] font-[500]"
+                    className="bg-white absolute -top-[0.6rem] left-2 px-1 text-[0.9rem] font-[500]"
                   >
                     Subject
                   </label>
                   <input
                     type="text"
-                    className="bg-[#f9f9f9] border border-[#2d2e32] outline-none rounded-[0.2rem] py-3 px-2"
+                    className="border border-[#2d2e32] outline-none rounded-[0.2rem] py-3 px-2"
                     {...register("subject", {
                       required: "Subject is required",
                       validate: (val) => {
@@ -202,14 +202,14 @@ const Contact = () => {
                 <div className="grid grid-cols-1 relative">
                   <label
                     htmlFor=""
-                    className="bg-[#f9f9f9] absolute -top-[0.6rem] left-2 px-1 text-[0.9rem] font-[500]"
+                    className="bg-white absolute -top-[0.6rem] left-2 px-1 text-[0.9rem] font-[500]"
                   >
                     Message
                   </label>
                   <textarea
                     type="text"
                     rows="3"
-                    className="bg-[#f9f9f9] border border-[#2d2e32] outline-none rounded-[0.2rem] py-3 px-2"
+                    className="border border-[#2d2e32] outline-none rounded-[0.2rem] py-3 px-2"
                     {...register("message", {
                       required: "Message is required",
                       validate: (val) => {

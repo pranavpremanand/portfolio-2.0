@@ -1,3 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .wrapper {
+    @apply max-w-7xl lg:mx-auto py-2 px-5 md:px-10 w-full;
+  }
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 95%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  scroll-behavior: smooth;
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #0284c7;
+  border-radius: 8px;
+}
+
+.scroll-container {
+  width: 100%; /* Set the width to the full width of the viewport */
+  overflow-x: auto; /* Enable horizontal scrolling */
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  white-space: nowrap; /* Prevent wrapping of content */
+}
+
+.content {
+  width: 200%; /* Set a width larger than the viewport to enable horizontal scrolling */
+}
+
 .error {
   color: #d10000;
 }
@@ -222,7 +265,7 @@
   100% {
     transform: rotate(360deg);
   }
-} 
+}
 
 // rotate animation in about section
 @keyframes rotate {

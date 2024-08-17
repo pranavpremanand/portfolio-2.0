@@ -150,13 +150,13 @@ const Skills = () => {
   return (
     <div
       id="skills"
-      className="w-full px-7 py-14 sm:py-16 flex flex-col bg-[#f9f9f9] items-center justify-center min-h-[80vh] lg:min-h-[100vh]"
+      className="w-full px-7 py-14 sm:py-16 flex flex-col items-center justify-center min-h-[80vh] lg:min-h-[100vh]"
     >
       <div className="" data-aos="fade-up">
-        <h1 className="text-xl uppercase text-[#0284c7] text-center font-semibold">
+        <h1 className="text-xl uppercase text-[#0284c7] text-center font-semibold mb-5">
           Tech Stack
         </h1>
-        <div className="max-w-[70rem] grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-5 sm:gap-8 text-center py-6">
+        <div className="wrapper grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-5 sm:gap-8 text-center py-6">
           {skills.map(({ id, src, title, style }, i) => (
             <div
               key={id}
