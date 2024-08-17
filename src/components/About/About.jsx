@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="flex justify-center px-7 py-20 lg:py-32 min-h-[95vh] lg:min-h-[100vh] bg-[#f9f9f9]"
+      className="flex justify-center  py-20 lg:py-32 min-h-[95vh] lg:min-h-[100vh] bg-[#f9f9f9]"
     >
       <div className="wrapper grid grid-cols-1 lg:grid-cols-2 items-center gap-10">
         <div

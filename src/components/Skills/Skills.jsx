@@ -150,7 +150,7 @@ const Skills = () => {
   return (
     <div
       id="skills"
-      className="w-full px-7 py-14 sm:py-16 flex flex-col items-center justify-center min-h-[80vh] lg:min-h-[100vh]"
+      className="w-full  py-14 sm:py-16 flex flex-col items-center justify-center min-h-[80vh] lg:min-h-[100vh]"
     >
       <div className="" data-aos="fade-up">
         <h1 className="text-xl uppercase text-[#0284c7] text-center font-semibold mb-5">
