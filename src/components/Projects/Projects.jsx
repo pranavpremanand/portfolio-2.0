@@ -59,9 +59,9 @@ const Projects = () => {
               >
                 <Link
                   to={liveLink}
-                  className="h-[40vh] md:w-1/2 overflow-hidden rounded-2xl"
+                  className="md:w-1/2 flex items-stretch overflow-hidden rounded-2xl"
                 >
-                  <img src={image} alt={id} className="rounded-2xl" />
+                  <img src={image} alt={id} className="rounded-2xl h-auto object-cover" />
                 </Link>
                 <div className="md:w-1/2 flex flex-col items-center justify-evenly gap-3">
                   <div className="flex flex-col gap-4">
@@ -71,7 +71,7 @@ const Projects = () => {
                     <p className="text-gray-600 text-md text-center">
                       {description}
                     </p>
-                    <div className="flex flex-wrap gap-4 text-md font-semibold">
+                    <div className="flex flex-wrap justify-center gap-4 text-md font-semibold">
                       <span key={i} className="text-[#15597b] text-center">
                         {techStacks.join(" - ")}
                       </span>
