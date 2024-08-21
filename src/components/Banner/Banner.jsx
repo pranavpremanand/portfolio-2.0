@@ -1,31 +1,15 @@
 import React from "react";
-import myImg from "../../assets/images/me.jpg";
-import handImg from "../../assets/images/waving hand.png";
+import myImg from "../../assets/images/me1.jpg";
 import boyImg from "../../assets/images/_focused-boy-with-laptop_.png";
 import {
   FiGithub,
   FiLinkedin,
-  FiInstagram,
   FiMail,
   FiPhone,
 } from "react-icons/fi";
-import { MdCloudDownload } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import htmlImg from "../../assets/images/html.png";
-import cssImg from "../../assets/images/css.png";
-import reactImg from "../../assets/images/react.png";
-import jsImg from "../../assets/images/javascript.png";
-import reduxImg from "../../assets/images/redux.png";
-import tailwindImg from "../../assets/images/tailwind.png";
-import muiImg from "../../assets/images/MUI.png";
-import bootstrapImg from "../../assets/images/bootstrap.png";
-import sassImg from "../../assets/images/sass.png";
-import nodeImg from "../../assets/images/node.png";
-import expressImg from "../../assets/images/expressjs.png";
-import mongoDbImg from "../../assets/images/mongodb.png";
 import indianFlag from "../../assets/images/indian-flag.png";
-import CV from "../../assets/files/Pranav_M_FullStackDeveloper_CV.pdf";
 import { TypeAnimation } from "react-type-animation";
 import { SparklesView } from "../Ui/SparklesView";
 
@@ -121,7 +105,7 @@ const Banner = () => {
             className="w-[22rem] object-cover aspect-square rounded-full"
           /> */}
             <div
-              className="hero-img w-[19rem] h-[19rem] sm:w-[25rem] sm:h-[25rem] grayscale-[70%]"
+              className="hero-img w-[19rem] h-[19rem] sm:w-[25rem] sm:h-[25rem] grayscale-[40%]"
               style={{ backgroundImage: `url(${myImg})` }}
               loading="lazy"
               data-aos="fade-right"
